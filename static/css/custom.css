@@ -181,14 +181,16 @@ a svg {
 /*==================================================*/       
 /* == right sidebar == */
 /*==================================================*/ 
+/* 让侧边栏透明
 .cp__right-sidebar {
     position: fixed;
     top: 3rem;
     right: 0;
     width: 0;
     opacity: .5;
-    height: 102vh; /*calc(100vh - 3rem);*/
-    overflow-x: hidden;
+    height: 102vh; 
+    //calc(100vh - 3rem);
+    overflow-x: visible;
     overflow-y: auto;
     z-index: 9;
     transition: width .3s,opacity .2s;
@@ -197,6 +199,7 @@ a svg {
     background-color: var(--ls-secondary-background-color,#d8e1e8);
     padding-bottom: 48px;
 }
+*/
     
 /*==================================================*/       
 /* == blocks margin and 900 px width == */
