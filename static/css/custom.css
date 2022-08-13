@@ -2478,3 +2478,7 @@ https://yoksel.github.io/url-encoder/
   text-decoration: underline;
   color: white !important;
 }
+
+.max-w-7xl.mx-auto.pb-24 {
+  padding-bottom: 0;
+}
